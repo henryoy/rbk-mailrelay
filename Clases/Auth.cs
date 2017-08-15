@@ -1,9 +1,8 @@
 ﻿using RestSharp;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using rbk.mailrelay.Model;
+using rbk.mailrelay.Helper;
 
 namespace rbk.mailrelay
 {
@@ -47,21 +46,23 @@ namespace rbk.mailrelay
         {
             get
             {
-                return "{}";
+                return ConfigHelper.GetPassword();
             }
         }
         private static string User
         {
             get
             {
-                return "{}";
+                return ConfigHelper.GetUser(); 
             }
         }
         internal static string URL
         {
             get
             {
-                string _url = "https://{}.ip-zone.com/ccm/admin/api/version/2/&type=json";
+                
+                string _url = "https://{USER}.ip-zone.com/ccm/admin/api/version/2/&type=json";
+                _url = _url.Replace("{USER}", User);
                 return _url;
             }
         }

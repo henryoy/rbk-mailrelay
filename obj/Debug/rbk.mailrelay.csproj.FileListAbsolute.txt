@@ -1,0 +1,9 @@
+C:\Users\DESARROLLO1\Documents\GitHub\rbk-mailrelay\bin\Debug\rbk.mailrelay.dll
+C:\Users\DESARROLLO1\Documents\GitHub\rbk-mailrelay\bin\Debug\rbk.mailrelay.pdb
+C:\Users\DESARROLLO1\Documents\GitHub\rbk-mailrelay\bin\Debug\Newtonsoft.Json.dll
+C:\Users\DESARROLLO1\Documents\GitHub\rbk-mailrelay\bin\Debug\RestSharp.dll
+C:\Users\DESARROLLO1\Documents\GitHub\rbk-mailrelay\bin\Debug\Newtonsoft.Json.xml
+C:\Users\DESARROLLO1\Documents\GitHub\rbk-mailrelay\bin\Debug\RestSharp.xml
+C:\Users\DESARROLLO1\Documents\GitHub\rbk-mailrelay\obj\Debug\rbk.mailrelay.dll
+C:\Users\DESARROLLO1\Documents\GitHub\rbk-mailrelay\obj\Debug\rbk.mailrelay.pdb
+C:\Users\DESARROLLO1\Documents\GitHub\rbk-mailrelay\obj\Debug\rbk.mailrelay.csprojResolveAssemblyReference.cache
